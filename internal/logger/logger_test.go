@@ -7,7 +7,7 @@ import (
 	"go.uber.org/zap/zapcore"
 	"go.uber.org/zap/zaptest/observer"
 
-	internallogger "github.com/0ffsideCompass/footballmodules/internal/logger"
+	internallogger "github.com/junkd0g/estimates/internal/logger"
 )
 
 func TestInfoLog(t *testing.T) {

@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	internalctx "github.com/0ffsideCompass/footballmodules/internal/context"
-	internallogger "github.com/0ffsideCompass/footballmodules/internal/logger"
+	internalctx "github.com/junkd0g/estimates/internal/context"
+	internallogger "github.com/junkd0g/estimates/internal/logger"
 )
 
 func Test_Logger(t *testing.T) {

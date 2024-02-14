@@ -1,0 +1,5 @@
+server:
+  port: ":8080"
+  timeOut: 30
+cintAPI:
+  url: "https://api.cintworks.net"

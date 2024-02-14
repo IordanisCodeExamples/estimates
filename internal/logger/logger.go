@@ -10,7 +10,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	internalctx "github.com/0ffsideCompass/footballmodules/internal/context"
+	internalctx "github.com/junkd0g/estimates/internal/context"
 )
 
 // LogField represents a custom map type for log fields.
