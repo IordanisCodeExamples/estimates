@@ -22,11 +22,10 @@ Shortest Feasible Delivery Time: The service determines the shortest feasible de
 
 ### curl example on default setting
 
-`curl --location 'localhost:8080/estimate/deliverytime' \
---header 'Content-Type: application/json' \
---data '{
+`curl --location 'localhost:8080/estimate/deliverytime' --header 'Content-Type: application/json' --data '{    "limit" : 100,    "lengthOfInterview" : 2}'`
 
-    "limit" : 100,
-    "lengthOfInterview" : 2
-}'
-`
+## Dependecy
+
+There is also a client implement for cint api 
+
+`https://github.com/junkd0g/go-client-cintworks`
